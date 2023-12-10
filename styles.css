@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgba(55, 64, 146, 0.493);
+    color: white;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center; /* Centra el contenido */
+}
+
+#inputText {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    width: calc(100% - 20px);
+    border-radius: 5px;
+    margin-bottom: 10px; /* Añade margen inferior para separar del botón */
+}
+
+#agregarBloque {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+#agregarBloque:hover {
+    background-color: #45a049; /* Cambia el color al pasar el ratón */
+}
+
+.bloque {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.bloque button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
